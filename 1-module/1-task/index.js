@@ -4,6 +4,14 @@
  * @param {number} n index
  * @returns {number}
  */
-function pow (m, n) {
 
+let m = parseInt(prompt('Введите число', " "));
+let n = parseInt(prompt('Введите степень', " "));
+
+function pow (m, n) {
+    if (m&&n>=1)
+    {
+        return Math.pow(m, n);
+    }
 }
+alert(pow(m, n));
